@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irrigação Inteligente 💧🌱</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💧 Irrigação por Gotejo: Quando Regar?</h1>
+        <p class="subtitulo">Economize água e cuide das suas plantas do jeito certo!</p>
+
+        <div class="formulario">
+            <label>1. Qual planta você está cultivando?</label>
+            <select id="planta">
+                <option value="alface">🥬 Alface</option>
+                <option value="cenoura">🥕 Cenoura</option>
+                <option value="tomate">🍅 Tomate</option>
+                <option value="rabanete">🔴 Rabanete</option>
+            </select>
+
+            <label>2. Tipo de solo:</label>
+            <select id="solo">
+                <option value="arenoso">Arenoso (escorre água rápido)</option>
+                <option value="argiloso">Argiloso (segura muita água)</option>
+                <option value="misto">Terroso / Misto (equilibrado)</option>
+            </select>
+
+            <label>3. Clima atual da região:</label>
+            <select id="clima">
+                <option value="calor">☀️ Muito quente e seco</option>
+                <option value="ameno">⛅ Ameno / Temperado</option>
+                <option value="frio">🌧️ Frio ou com muita chuva</option>
+            </select>
+
+            <button onclick="calcularIrrigacao()">Ver recomendação 💡</button>
+        </div>
+
+        <div id="resultado" class="resultado"></div>
+
+        <div class="dica">
+            <h3>💡 Por que Irrigação por Gotejo?</h3>
+            <p>Ela leva água direto na raiz, sem desperdiçar com evaporação ou escoamento. É o método MAIS econômico e sustentável!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+lol
